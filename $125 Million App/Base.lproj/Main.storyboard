@@ -45,7 +45,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tri-zH-J6W">
                                 <rect key="frame" x="115" y="83" width="90" height="45"/>
@@ -56,8 +56,8 @@
                                     <action selector="convertButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mew-2z-GII"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8e-O4-hrS">
-                                <rect key="frame" x="16" y="119" width="288" height="81"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8e-O4-hrS">
+                                <rect key="frame" x="16" y="119" width="288" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -76,7 +76,7 @@
                             <constraint firstItem="tri-zH-J6W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="99" id="bjU-Ou-uC2"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tri-zH-J6W" secondAttribute="bottom" constant="440" id="bs3-Ci-gGd"/>
                             <constraint firstItem="OYL-4b-izp" firstAttribute="leading" secondItem="3Br-SU-pcP" secondAttribute="trailing" constant="8" symbolic="YES" id="cJc-Ge-Cm6"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Q8e-O4-hrS" secondAttribute="bottom" constant="368" id="fjb-RR-RUi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Q8e-O4-hrS" secondAttribute="bottom" constant="368" id="fjb-RR-RUi"/>
                             <constraint firstItem="Q8e-O4-hrS" firstAttribute="top" secondItem="3Br-SU-pcP" secondAttribute="bottom" constant="35" id="gyK-qC-qca"/>
                             <constraint firstItem="W6D-YM-qBj" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="pQY-Qw-Pff"/>
                             <constraint firstItem="tri-zH-J6W" firstAttribute="top" secondItem="OYL-4b-izp" secondAttribute="bottom" constant="8" symbolic="YES" id="qxb-ql-Qbt"/>
